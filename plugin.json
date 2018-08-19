@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-post-comments",
+	"name": "NodeBB Wechat SSO",
+	"description": "NodeBB Plugin that allows users to login/register via their Wechat account.",
+	"url": "https://github.com/xuqinggang/nodebb-plugin-post-comments",
+	"library": "./library.js",
+  "hooks": [
+    { "hook": "filter:teasers.get", "method": "addScripts" }
+  ]
+}
